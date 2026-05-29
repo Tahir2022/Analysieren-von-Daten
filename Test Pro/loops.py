@@ -28,3 +28,9 @@ for letter in strval:
     if letter == "e":
         e_count = e_count+1
 print("The letter e occured: ",e_count, "times")
+
+m = 2
+n = 1
+for i in range(m):
+    for j in range(n):
+        print("i= ",i,"j= ",j)
